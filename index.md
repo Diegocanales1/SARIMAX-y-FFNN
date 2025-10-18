@@ -7,7 +7,7 @@
 docs/models/sarimax       <-- BUSCA EN models/sarimax.md
 docs/models/ffnn          <-- BUSCA EN models/ffnn.md
 docs/Results/predicciones <-- BUSCA EN results/predicciones.md
-... 
+
 
 Bienvenidos al sitio del proyecto **Modelos no lineales para pronósticos**. Aquí documentamos dos enfoques para predecir el precio de cierre diario de una acción: **SARIMAX** y **FFNN**.
 
