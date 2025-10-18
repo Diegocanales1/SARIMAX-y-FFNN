@@ -22,23 +22,31 @@ project = 'SARIMAX y FFNN para Predicción de Acciones'
 copyright = '2025, Max Aguayo, Diego Canales, David Gutierrez'
 author = 'Max Aguayo, Diego Canales, David Gutierrez'
 
+master_doc = 'index'
+source_suffix = ['.rst', '.md']
+
+def conf_general(app, config):
+    app.add_source_suffix('.md', 'markdown')
+    app.add_source_parser(config.extensions['myst_parser'])
+
+def setup(app):
+    app.add_config_value('myst_config', {}, 'env')
+    app.add_source_suffix('.md', 'markdown')
+
 html_theme = 'sphinx_rtd_theme'
 extensions = [
     'sphinx.ext.autodoc', 
     'sphinx.ext.napoleon', 
-    'sphinx.ext.linkcode',    
-    'myst_parser',       
+    'sphinx.ext.linkcode', 
+    'myst_parser' # Extensión moderna para procesar archivos .md
 ]
-
-master_doc = 'index'
-source_suffix = {'.rst': 'restructuredtext', '.md': 'myst'}
 
 def linkcode_resolve(domain, info):
     if domain != 'py':
         return None
     if not info.get('module') or not info.get('fullname'):
         return None
-    return None
+    return None 
 
 html_static_path = ['_static']
 
