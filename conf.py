@@ -29,9 +29,6 @@ def conf_general(app, config):
     app.add_source_suffix('.md', 'markdown')
     app.add_source_parser(config.extensions['myst_parser'])
 
-def setup(app):
-    app.add_config_value('myst_config', {}, 'env')
-    app.add_source_suffix('.md', 'markdown')
 
 html_theme = 'sphinx_rtd_theme'
 extensions = [
