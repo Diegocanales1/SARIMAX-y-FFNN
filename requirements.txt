@@ -1,2 +1,11 @@
 sphinx>=7.0
 myst-parser>=2.0.0
+numpy
+pandas
+yfinance
+plotly
+statsmodels
+scikit-learn
+tensorflow
+matplotlib
+keras
