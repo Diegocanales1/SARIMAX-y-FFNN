@@ -27,7 +27,7 @@ extensions = [
     'sphinx.ext.autodoc', 
     'sphinx.ext.napoleon', 
     'sphinx.ext.linkcode',    
-    'recommonmark',       
+    'myst_parser',       
 ]
 
 def linkcode_resolve(domain, info):
