@@ -10,4 +10,4 @@ Aquí documentamos dos enfoques para predecir el precio de cierre diario de una 
 
 docs/models/sarimax.md
 docs/models/ffnn.md
-docs/results/predicciones.md
+docs/Results/predicciones.md
