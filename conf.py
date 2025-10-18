@@ -53,11 +53,3 @@ html_context = {
     "github_version": "main", # o master
     "conf_py_path": "/",
 }
-
-from recommonmark.parser import CommonMarkParser
-def setup(app):
-    app.add_source_suffix('.md', 'markdown')
-    app.add_config_value('recommonmark_config', {
-        'enable_eval_rst': True,
-    }, True)
-    app.add_source_parser(CommonMarkParser)
