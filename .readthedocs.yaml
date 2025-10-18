@@ -9,5 +9,8 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.12"
-  jobs:
-    - command: sphinx-build -T -b html -d _build/doctrees . _build/html
+
+sphinx:
+  configuration: conf.py
+  builder: html
+  fail_on_warning: false
