@@ -6,10 +6,10 @@ A continuación se registran y publican las predicciones diarias de cierre para 
 
 | fecha      |   SARIMAX |   FFNN |
 |:-----------|----------:|-------:|
-| 2025-10-20 |    252.18 | 249.02 |
-| 2025-10-21 |    252.35 | 250.34 |
-| 2025-10-22 |    252.16 | 251.54 |
-| 2025-10-23 |    252.08 | 252.30 |
-| 2025-10-24 |    251.98 | 252.13 |
+| 2025-10-20 |    252.18 | 253.12 |
+| 2025-10-21 |    252.35 | 253.50 |
+| 2025-10-22 |    252.16 | 253.99 |
+| 2025-10-23 |    252.08 | 256.00 |
+| 2025-10-24 |    251.98 | 256.99 |
 
 > Nota: Estos valores provienen del notebook original y quedan versionados en el repositorio para trazabilidad.
