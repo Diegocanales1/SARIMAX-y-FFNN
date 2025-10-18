@@ -31,7 +31,7 @@ extensions = [
 ]
 
 master_doc = 'index'
-source_suffix = ['.rst', '.md']
+source_suffix = [{'.rst': 'restructuredtext', '.md': 'myst'}]
 
 def linkcode_resolve(domain, info):
     if domain != 'py':
