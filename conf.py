@@ -30,6 +30,9 @@ extensions = [
     'myst_parser',       
 ]
 
+master_doc = 'index'
+source_suffix = ['.rst', '.md']
+
 def linkcode_resolve(domain, info):
     if domain != 'py':
         return None
